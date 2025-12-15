@@ -7,5 +7,6 @@ class AccessKeysConfig(BaseSettings):
                                       env_file_encoding="utf-8")
 
     OPENAI_API_KEY: str
-    
+
+#Instance
 accesskeys_config = AccessKeysConfig()
