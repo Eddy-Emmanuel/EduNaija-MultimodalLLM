@@ -14,4 +14,4 @@ pydantic_core
 PyMuPDF
 pypdf
 streamlit
-openai                    
+openai
