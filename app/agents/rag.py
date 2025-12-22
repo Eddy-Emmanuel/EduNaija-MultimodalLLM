@@ -46,7 +46,7 @@ def CreateRetrieverQA(temp_path):
                                         llm=llm,
                                         retriever=retriever,
                                         chain_type="stuff",
-                                        chain_type_kwargs={"prompt": rag_prompt},  # Fixed: moved prompt here
+                                        chain_type_kwargs={"prompt": rag_prompt},  
                                         return_source_documents=True
                                     )
     
